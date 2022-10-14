@@ -1,3 +1,13 @@
+"""
+pattern printing
+output
+1
+22
+333
+4444
+55555
+"""
+
 rows = 6
 # if you want user to enter a number, uncomment the below line
 # rows = int(input('Enter the number of rows'))
