@@ -1,0 +1,23 @@
+"""
+output
+*
+**
+***
+****
+*****
+"""
+
+# Function to demonstrate printing pattern of increasing triangle
+def pypart(n):
+	for i in range(0, n):
+		for j in range(0, i+1):
+		
+			# printing stars
+			print("* ",end="")
+	
+		# ending line after each row
+		print("\r")
+    #driver code
+    n=5
+    pypart(n)
+
